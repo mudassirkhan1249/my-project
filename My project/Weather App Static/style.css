@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(assest/cloud.webp);
+  background-color: #bab1b193;
+  opacity: 7;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 70%;
+  background: linear-gradient(#4a91e263 , #357bb860 , #333333a2);
+  flex-direction: column;
+  border: none;
+  border-radius: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background-color: #ffffff40;
+}
+.con input{
+  font-size: 1rem;
+  height: 9%;
+  width: 70%;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.6rem;
+  background-color: #bab1b170;
+  margin-bottom: 1.7rem;
+  padding: 0.6rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.con input::placeholder{
+  color: #333;
+}
+.con button{
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  transition: background 0.2s;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .con button:hover {
+    background-color: #357ab8;
+  font-weight: 700;
+}
+.con .weatherResult{
+  background: linear-gradient(#4a91e218 , #357bb82b , #33333382);
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+  width: 60%;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.7rem;
+}

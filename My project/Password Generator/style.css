@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ada7a7;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2.5rem;
+}
+.con{
+    background-color: #ffffff99;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con input{
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.con .output{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem;
+    color: #333;
+    text-align: center;
+}
+.con button {
+    font-size: 1.35rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
+.con button:hover {
+    background-color: #45a049;
+}
+.con input::placeholder{
+    color: #888;
+    font-style: italic;
+}
